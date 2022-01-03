@@ -1,4 +1,8 @@
 export * from './amend-order/index';
+export * from './checkout-place-order/checkout-place-order.component';
+export * from './checkout-place-order/checkout-place-order.module';
+export * from './checkout-scheduled-replenishment-place-order/checkout-scheduled-replenishment-place-order.component';
+export * from './checkout-scheduled-replenishment-place-order/checkout-scheduled-replenishment-place-order.module';
 export * from './order-components.module';
 export * from './order-details/index';
 export * from './order-history/order-history.component';
@@ -10,3 +14,4 @@ export * from './replenishment-order-history/index';
 export * from './return-request-detail/index';
 export * from './return-request-list/order-return-request-list.component';
 export * from './return-request-list/order-return-request-list.module';
+export * from './services/index';

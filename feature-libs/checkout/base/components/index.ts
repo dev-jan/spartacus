@@ -12,8 +12,6 @@ export * from './checkout-payment-method/checkout-payment-form/checkout-payment-
 export * from './checkout-payment-method/checkout-payment-form/checkout-payment-form.module';
 export * from './checkout-payment-method/checkout-payment-method.component';
 export * from './checkout-payment-method/checkout-payment-method.module';
-export * from './checkout-place-order/checkout-place-order.component';
-export * from './checkout-place-order/checkout-place-order.module';
 export * from './checkout-progress/checkout-progress-mobile-bottom/checkout-progress-mobile-bottom.component';
 export * from './checkout-progress/checkout-progress-mobile-bottom/checkout-progress-mobile-bottom.module';
 export * from './checkout-progress/checkout-progress-mobile-top/checkout-progress-mobile-top.component';

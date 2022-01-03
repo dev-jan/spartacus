@@ -6,7 +6,6 @@ import {
   ViewContainerRef,
 } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
-import { CheckoutPlaceOrderComponent } from '@spartacus/checkout/base/components';
 import { CheckoutFacade } from '@spartacus/checkout/base/root';
 import {
   CheckoutScheduledReplenishmentFacade,
@@ -17,6 +16,7 @@ import {
 import { RoutingService } from '@spartacus/core';
 import { LaunchDialogService, LAUNCH_CALLER } from '@spartacus/storefront';
 import { BehaviorSubject, merge, Subscription } from 'rxjs';
+import { CheckoutPlaceOrderComponent } from '../checkout-place-order/checkout-place-order.component';
 import { CheckoutReplenishmentFormService } from '../services/checkout-replenishment-form.service';
 
 @Component({

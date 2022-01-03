@@ -14,7 +14,7 @@ import { I18nTestingModule, RoutingService } from '@spartacus/core';
 import { LaunchDialogService, LAUNCH_CALLER } from '@spartacus/storefront';
 import { BehaviorSubject, of } from 'rxjs';
 import { CheckoutReplenishmentFormService } from '../services/checkout-replenishment-form.service';
-import { CheckoutScheduledReplenishmentPlaceOrderComponent } from './checkout-place-order.component';
+import { CheckoutScheduledReplenishmentPlaceOrderComponent } from './checkout-scheduled-replenishment-place-order.component';
 import createSpy = jasmine.createSpy;
 
 const mockReplenishmentOrderFormData: ScheduleReplenishmentForm = {

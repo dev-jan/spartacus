@@ -12,7 +12,7 @@ import {
   provideDefaultConfig,
   UrlModule,
 } from '@spartacus/core';
-import { CheckoutScheduledReplenishmentPlaceOrderComponent } from './checkout-place-order.component';
+import { CheckoutScheduledReplenishmentPlaceOrderComponent } from './checkout-scheduled-replenishment-place-order.component';
 
 @NgModule({
   imports: [
